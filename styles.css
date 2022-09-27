@@ -1,7 +1,7 @@
 .container-fluid {
     margin: none;
     padding: 5%;
-    border: solid gray;
+    border: 1px solid gray;
 }
 .missing-info {
     background-color: pink;
