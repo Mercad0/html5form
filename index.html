@@ -1,0 +1,104 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fa61fd7590.js" crossorigin="anonymous"></script>
+<title>Payment form</title>
+</head>
+
+<body>
+    <form class="container-full">
+    <div class="container m-5 mx-auto d-flex rounded-2 flex-column gap-3">
+    <div class="row bg-light border-bottom">
+        <div class="col-md-12 py-3">
+            <h4 class="d-inline align-middle">Payment form example</h4>
+        </div>
+    </div>
+    <div class="row p-4">
+        <div class="col-md-12">
+            <p class="missing-info">Some fields are missings</p>
+        </div>
+    </div>
+    
+        <div class="row">
+            <div class="col-md-5">
+                <label for="card-number">Card #</label>
+                <input type="number" placeholder="XXXXXXXXXXXXXXXX" id="card-number" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <label for="cvc-#">CVC #</label>
+                <input type="number" placeholder="0000" id="CVC" class="form-control">
+            </div>
+            <div class="col-md-3">
+                <label for="amount">Amount</label>
+                <input type="number" placeholder="Amount" id="amount" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 p-2">
+                <label for="fname">First Name</label>
+                <input type="text" placeholder="Cuatro" id="cuatro" class="form-control">
+            </div>
+            <div class="col-md-6 p-2">
+                <label for="lname"> Last Name</label>
+                <input type="text" placeholder="Geeks" id="geeks" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 p-2">
+                <label for="city"> City </label>
+                <input type="text" placeholder="city" id="city" class="form-control">
+            </div>
+            <div class="col-md-3 p-2">
+                <label for="state"> State </label>
+                <select name="state" id="state" class="form-control">
+                    <option value="AL">miami</option>
+                    <option value="AK">los cayos</option>
+                    <option value="AZ">broward</option>
+                    <option value="AR">hialeah</option>
+                    <option value="CA">boca raton</option>
+                    <option value="CO">allapattah</option>
+                    <option value="CT">calle ocho</option>
+                    <option value="DE">la fitness</option>
+                    <option value="DC">miami dade college</option>
+                    <option value="FL">Florida</option>
+                    <option value="Bonus">4geeks county</option>
+                </select>
+            </div>
+            <div class="col-md-3 p-2">
+                <label for="state"> Postal Code </label>
+                <input type="number" placeholder="33142" id="postal-code" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 p-2">
+                <label for="card-type">We accept: </label>
+                <br>
+                <div class="form-check">
+                    <input type="radio" id="mastercard" name="payment" value="mastercard">
+                    <label for="mastercard"><i class="fa-brands fa-cc-mastercard fa-2x"></i></label>
+                    <input type="radio" id="visa" name="payment" value="visa">
+                    <label for="visa"><i class="fa-brands fa-cc-visa fa-2x"></i></label>
+                    <input type="radio" id="amex" name="payment" value="amex">
+                    <label for="amex"><i class="fa-brands fa-cc-amex fa-2x"></i></label>
+                    <input type="radio" id="amex" name="payment" value="bitcoin">
+                    <label for="bitcoin"><i class="fa-brands fa-bitcoin fa-2x"></i></label>
+                </div>
+            </div>
+            <div class="col-md-6 p-2">
+                <label for="message">Message</label> <br>
+                <textarea rows="4" cols="60">            </textarea>
+            <p><small>^ add any notes here ^</small></p>
+            </div>
+            </div>
+            <div class="row bg-light p-3 border-top">
+                <div class="col-md-10">
+                </div>
+                <div class="col-md-2">
+                    <button type="button" class="btn btn-primary btn-sm">Cancel</button>
+                    <button type="button" class="btn btn-secondary btn-sm">Send</button>
+                </div>
+            </div>
+        </form></div>
