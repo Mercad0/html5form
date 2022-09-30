@@ -1,6 +1,6 @@
 .container {
     margin: none;
-    padding: 5%;
+    padding: 0;
     border: 1px solid gray;
 }
 .missing-info {
